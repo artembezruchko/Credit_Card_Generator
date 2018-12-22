@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Card generator</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      #container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+    <script src="popup.js"></script>
+  <link href="popup.css" rel="stylesheet">
+  </head>
+
+  <body class="layer0">
+    <h2 class="layerHead">RANDOM CARDS</h2>
+    <div id="container">
+      <table class="layer2">
+        <tr>
+          <th class="layerTd">Visa</th>
+          <th class="layerTd">Master Card</th>
+          <th class="layerTd">American Express</th>
+          <th class="layerTd">Discover</th>
+        </tr>
+        <tr>
+          <td id="0001" class="layerTd">4444333322221111</td>
+          <td id="0010" class="layerTd">2</td>
+          <td id="0100" class="layerTd">3</td>
+          <td id="1000" class="layerTd">4</td>
+        </tr>
+        <tr>
+          <td id="0002" class="layerTd">1</td>
+          <td id="0020" class="layerTd">4444333322221111</td>
+          <td id="0200" class="layerTd">3</td>
+          <td id="2000" class="layerTd">4</td>
+        </tr>
+        <tr>
+          <td id="0003" class="layerTd">1</td>
+          <td id="0030" class="layerTd">2</td>
+          <td id="0300" class="layerTd">444433332222111</td>
+          <td id="3000" class="layerTd">4</td>
+        </tr>
+       </table> 
+    </div>
+
+
+    <div>
+      <h2 class="layerHead">England</h2>
+      <table class="layer2">
+        <tr>
+          <th class="layerTd">Visa</th>
+          <th class="layerTd">Master Card</th>
+        </tr>
+        <tr>
+          <th id="e1" class="layerTd">4444333322221111</th>
+          <th id="e2" class="layerTd">2</th>
+        </tr>  
+      </table>
+    </div>
+    <div>
+
+      
+      <h2 class="layerHead">Brazil</h2>
+      <table class="layer2">
+        <tr>
+          <th class="layerTd">Visa</th>
+          <th class="layerTd">Master Card</th>
+        </tr>
+        <tr>
+          <th id="b1" class="layerTd">4444333322221111</th>
+          <th id="b2" class="layerTd">2</th>
+        </tr>  
+      </table>
+    </div>
+
+    <div>
+      <h2 class="layerHead">China</h2>
+      <table class="layer2">
+        <tr>
+          <th class="layerTd">Visa</th>
+          <th class="layerTd">Master Card</th>
+        </tr>
+        <tr>
+          <th id="ch1" class="layerTd">4444333322221111</th>
+          <th id="ch2" class="layerTd">2</th>
+        </tr>  
+      </table>
+    </div>
+
+    <div>
+      <h2 class="layerHead">Cyprys</h2>
+      <table class="layer2">
+        <tr>
+          <th class="layerTd">Visa</th>
+          <th class="layerTd">Master Card</th>
+        </tr>
+        <tr>
+          <th id="cy1" class="layerTd">4444333322221111</th>
+          <th id="cy2" class="layerTd">2</th>
+        </tr>  
+      </table>
+    </div>
+
+    <div>
+      <h2 class="layerHead">Ukraine</h2>
+      <table class="layer2">
+        <tr>
+          <th class="layerTd">Visa</th>
+          <th class="layerTd">Master Card</th>
+        </tr>
+        <tr>
+          <th id="u1" class="layerTd">4444333322221111</th>
+          <th id="u2" class="layerTd">2</th>
+        </tr>  
+      </table>
+
+    <div>
+      <h2 class="layerHead">Hungary</h2>
+      <table class="layer2">
+        <tr>
+          <th class="layerTd">Visa</th>
+          <th class="layerTd">Master Card</th>
+        </tr>
+        <tr>
+          <th id="hu1" class="layerTd">4444333322221111</th>
+          <th id="hu2" class="layerTd">2</th>
+        </tr>  
+      </table>
+    </div>
+    <div>
+      <h2 class="layerHead">Custom card</h2>
+      <table class="layer2">
+        <tr>
+          <th class="layerTd">Custom BIN</th>
+          <th class="layerTd">Custom Numbers</th>
+        </tr>
+        <tr>
+          <th id="customBIN1" class="layerTd"><textarea class="layerTd" rows="1" cols="10" style="margin: 0px 0px 2px; width: 250px; height: 60px;" id="customBIN">542606</textarea></th>
+          <th id="customNumbers1" class="layerTd"><textarea class="layerTd" rows="1" cols="10" style="margin: 0px 0px 2px; width: 250px; height: 60px;" id="customNumbers">16</textarea></th>
+        </tr>  
+      </table>
+    </div>
+    <div>
+      <td class="layerTd"><input type="button" value="Generate new Card" id="1"/></td>
+      <table class="layer2">
+        <tr>
+          <th class="layerTd">Custum Card</th>
+        </tr>
+        <tr>
+          <th id="customPan" class="layerTd">4444333322221111</th>
+        </tr>  
+      </table>
+    </div>
+    </div>
+  </body>
+</html>
