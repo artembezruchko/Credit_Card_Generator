@@ -209,9 +209,9 @@ function getUkraine(ps) {
 function getHungary(ps) {
   let bin = [];
   if (ps == "VISA") {
-    bin = ["417006"];
+    bin = ["491762"];
   } else {
-    bin = ["557729"]
+    bin = ["549718"]
   }
   return bin[getRand(0, bin.length - 1)];
 }
